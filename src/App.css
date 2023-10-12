@@ -2,13 +2,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000;
-background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  color: rgb(245, 3, 3);
+  background-color: blue;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  color: red;
+  
 }
 
 h1 {
+  
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
@@ -21,6 +22,7 @@ h1 {
   grid-template-rows: 100px 100px 100px;
   cursor: pointer;
   position: relative;
+  
   
 }
 
@@ -53,7 +55,7 @@ h1 {
 .strike {
   position: absolute;
   background-color: blue;
-  border: 3px solid #000000;
+  border: 3px solid #fff;
 }
 
 .strike-row-1 {
